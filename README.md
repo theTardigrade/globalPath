@@ -18,13 +18,15 @@ import (
 )
 
 func main() {
-	// initializes the base path as the path to the models subdirectory of the data subdirectory of the directory where this package is located
+    // initializes the base path as the path to the "models" subdirectory of the
+    // "data" subdirectory of the directory where this package is located
 	globalPath.Init("data", "models")
 
 	// prints the base path
 	fmt.Println(globalPath.Get())
 
-	// prints the path to the z subdirectory of the y subdirectory of the x subdirectory of the base path
+	// prints the path to the "z" subdirectory of the "y" subdirectory of the
+	// "x" subdirectory of the base path
 	fmt.Println(globalPath.Join("x", "y", ".", "z"))
 
 	// reinitializes the base path to the directory where this package is located
