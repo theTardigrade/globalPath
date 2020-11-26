@@ -18,8 +18,8 @@ import (
 )
 
 func main() {
-    // initializes the base path as the path to the "models" subdirectory of the
-    // "data" subdirectory of the directory where this package is located
+	// initializes the base path as the path to the "models" subdirectory of the
+	// "data" subdirectory of the directory where this package is located
 	globalPath.Init("data", "models")
 
 	// prints the base path
