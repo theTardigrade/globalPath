@@ -1,4 +1,4 @@
-package globalPath
+package globalFilepath
 
 import "errors"
 
