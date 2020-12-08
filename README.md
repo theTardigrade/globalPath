@@ -1,4 +1,4 @@
-# globalFilepath
+# golang-globalFilepath
 
 This package allows a global filepath to be initialized, which can then be used from other packages.
 
