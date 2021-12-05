@@ -2,10 +2,6 @@
 
 This package allows a global filepath to be initialized, which can then be used from other packages.
 
-## Support
-
-If you use or appreciate this package in any way, please consider donating at [PayPal](https://www.paypal.me/jismithpp).
-
 ## Example
 
 ```golang
